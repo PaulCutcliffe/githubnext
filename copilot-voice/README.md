@@ -73,7 +73,7 @@ These commands help with IDE interactions. Here are a few examples of these comm
 17. "select lines 5 to 10" -> selects lines 5 to 10 
 18. "delete line 15" -> deletes line 15
 19. "delete lines 4 to 16" -> deletes lines 4 to 16
-20. "delete lines 10 to the end" -> deletes lines starting from 4 till the end of file
+20. "delete lines 10 to the end" -> deletes lines starting from 10 till the end of file
 21. "go to next class" -> moves the cursor to the next class
 22. "select previous function" -> selects the previous function
 23. "select current symbol" -> selects the current symbol 
@@ -121,7 +121,7 @@ We are chasing the dream of having a very natural and conversational experience 
 
 - We recommend having a good microphone to get the best experience with the `GitHub Copilot Voice` extension. In our experience, a good microphone greatly improves the accuracy of the speech recognition and as a result, the accuracy of the entire extension. 
 
-- There is way to define custom commands for the `GitHub Copilot Voice` extension. In the extension configuration you can define a custom utterance and map it to a known VS Code command. For example, if you want to define a custom command to toggle the sidebar, you can define the utterance as "toggle sidebar" and map it to the VS Code command "workbench.action.toggleSidebarVisibility".
+- There is a way to define custom commands for the `GitHub Copilot Voice` extension. In the extension configuration you can define a custom utterance and map it to a known VS Code command. For example, if you want to define a custom command to toggle the sidebar, you can define the utterance as "toggle sidebar" and map it to the VS Code command "workbench.action.toggleSidebarVisibility".
 
 - If you would like to use your speech-to-text engine to interact with `Copilot Voice`, you can direct the output of these systems into the `Copilot Voice` Webview's chat input.
 Remember to turn off the default speech-to-text engine by clicking on the microphone icon on the web view.
